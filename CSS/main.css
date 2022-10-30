@@ -103,12 +103,15 @@
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 700;
-    font-size: 20px; 
+    font-size: 20px;
+    text-decoration: none;
 }
 .but:hover {
     text-decoration: none;
-    border-bottom: 1px solid #551b96;
+    color: #aca3b6;
+    transition: 0.2s;
 }
+
 .phone {
     margin-right: 420px;
     background-image: url(/Landify_project/images/Group\ 1.png);
@@ -743,4 +746,12 @@
 }
 .ad6 {
     margin-top: 16px;
+}
+.butin {
+    text-decoration: none;
+    color: white;
+}
+.butin:hover {
+    color: #969BAB;
+    transition: 0.2s;
 }
